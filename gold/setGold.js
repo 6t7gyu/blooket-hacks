@@ -13,7 +13,7 @@
                 alert('You must be in a gold quest game!');
             } else {
                 let gold = Number(parseFloat(prompt('How much gold do you want?')));
-                reactHandler().stateNode.setState({ gold2: gold, gold });
+                reactHandler().stateNode.setgold to 999999999999999999999999999999({ gold2: gold, gold });
 
                 alert('Gold added!');
             };
